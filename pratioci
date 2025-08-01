@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kupi Pratioce - InstaBoost</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0e0e0e;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .card {
+      background-color: #1f1f1f;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 30px;
+      margin: 20px;
+      width: 300px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      border-color: #00ff9d;
+    }
+    .price {
+      font-size: 28px;
+      margin: 15px 0;
+      color: #00ff9d;
+    }
+    .btn {
+      background-color: #00ff9d;
+      color: #000;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background-color: #00cc80;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>InstaBoost - Pravi pratioci za tvoj profil</header>
+  <section class="container">
+    <div class="cards">
+      <div class="card">
+        <h2>500 Pratilaca</h2>
+        <p class="price">2.99 €</p>
+        <p>Brza i sigurna isporuka u roku od 12h. Nema potrebe za lozinkom.</p>
+        <button class="btn">Kupi sada</button>
+      </div>
+      <div class="card">
+        <h2>1000 Pratilaca</h2>
+        <p class="price">4.99 €</p>
+        <p>Brza i sigurna isporuka u roku od 12h. Nema potrebe za lozinkom.</p>
+        <button class="btn">Kupi sada</button>
+      </div>
+      <div class="card">
+        <h2>5000 Pratilaca</h2>
+        <p class="price">14.99 €</p>
+        <p>Brza i sigurna isporuka u roku od 12h. Nema potrebe za lozinkom.</p>
+        <button class="btn">Kupi sada</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
